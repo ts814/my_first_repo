@@ -1,0 +1,83 @@
+body {
+  height: 5000px;
+}
+.left {
+  width: 50%;
+  background-color:black;
+}
+.right {
+  position: relative;
+  top: 36px;
+  left: 1250px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.aboout {
+  position: relative;
+  top: 6px;
+  left: 800px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.skills {
+  position: relative;
+  bottom: 24px;
+  left: 950px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.resume{
+  position: relative;
+  bottom: 54px;
+  left: 1100px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+
+
+.relative {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  height: 50px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+}
+.absolute {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+
+}
+
+.fixed {
+  position: fixed;
+  bottom: 48px;
+  left: 10px;
+}
